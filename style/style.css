@@ -298,6 +298,9 @@ img {vertical-align: middle;}
 	padding-left: 100px;
 
 }
+.padd{
+	padding-bottom: 5px;
+}
 .section3boxh1{
 	margin-bottom: 20px;
 	padding-right: 150px;
@@ -305,6 +308,9 @@ img {vertical-align: middle;}
 	margin-left: 50px;
 	padding-left: 50px;
 	padding-bottom: 20px;
+}
+.conainerbotext{
+	margin-bottom: 5px; 
 }
 .section3boxbutton{
 	border-radius: 12px;
