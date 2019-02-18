@@ -15,7 +15,47 @@
 	justify-content: space-between;
 	align-items: center
 }
+/*FONTS*/
+@font-face {
+  font-family: 'Roboto-r';
+  src: url(../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-Regular.eot);
+  src: url(../fonts/Roboto-Regular.woff);
+  src: url(../fonts/Roboto-Regular.woff2); }
+
+  @font-face {
+  font-family: 'Roboto-l';
+  src: url(../fonts/Roboto-Light.ttf);
+  src: url(../fonts/Roboto-Light.eot);
+  src: url(../fonts/Roboto-Light.woff);
+  src: url(../fonts/Roboto-Light.woff2); }
+
+  @font-face {
+  font-family: 'Roboto-m';
+  src: url(../fonts/Roboto-Medium.ttf);
+  src: url(../fonts/Roboto-Medium.eot);
+  src: url(../fonts/Roboto-Medium.woff);
+  src: url(../fonts/Roboto-Medium.woff2); }
 /*header*/
+a{
+	font-family:  'Roboto-r';
+}
+h1{
+	font-family: 'Roboto-l';
+	font-size: 40px;
+}
+h2{
+	font-family: 'Roboto-m';
+}
+h3{
+	font-family: 'Roboto-r';
+	font-style: bold;
+}
+p{
+	font-family:  'Roboto-l';
+	font-size: 13px;
+	font-style: bold;
+}
 header{
 	padding: 20px 20px;
 }
@@ -33,7 +73,7 @@ header{
 
 .nav-ul{
 	display: flex;
-	margin-right: 200px;
+	align-items: center;
 }
 .nav-li{
 	margin-left: 30px; 
@@ -102,6 +142,10 @@ a{
   display: flex;
   padding-left: 18px;
   }
+  .section2icons:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+  border: 0px solid rgba(134, 134, 134, 0.4); }
   .section2h2{
   	margin-bottom: 40px;
   }
@@ -144,16 +188,21 @@ a{
 	height: 570px;
 	width: 100%;
 	text-align: center;
-	padding-left: 330PX;
 	padding-top: 65PX;
 	display: flex;
+	align-items: center;
 }
 .section3phonesimg{
 	float: left;
 	height: 435px;
+	display: flex;
+	align-items: center;
+	margin-left: 270px;
 }
 .section3boxtext{
 	width: 150px;
+	display: flex;
+	align-items: center;
 	
 }
 .section3boxp{
@@ -226,6 +275,11 @@ h1{
 	height: 165px;
 	margin-bottom: 20px;
 }
+.containerimg:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+  border: 6px solid rgba(134, 134, 134, 0.4); }
+
 .section3icons{
 	display: inline-block;
 	align-items: center;
@@ -234,6 +288,10 @@ h1{
 	padding-left: 120px;
 	padding-top: 90px;
 }
+.section3iconsphoto:hover {
+  transition: 0.6s;
+  transform: scale(1.15);
+  border: 0px solid rgba(134, 134, 134, 0.4); }
 .iconstext{
 	margin-top: 30px;
 }
@@ -254,6 +312,10 @@ h1{
 	height: 180px;
 	width: 230px;
 }
+.jhonedoeimg:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+  border: 5px solid rgba(134, 134, 134, 0.4); }
 .employe{
 	display: inline-block;
 	align-items: center;
@@ -282,7 +344,7 @@ h1{
 	margin-bottom: 20px;
 }
 .section5icon2{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .section5box2{
 	height: 370px;
@@ -316,6 +378,10 @@ h1{
 	width: 530px;
 	height: 300px;
 }
+.section6img:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+  border: 8px solid rgba(134, 134, 134, 0.4); }
 
 .section6box{
 	height: 140px;
@@ -346,14 +412,18 @@ h1{
 	width: 480px;
 	text-align: center;
 	display: inline-block;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 }
-.section7h1{
-	margin-bottom: 150px;
+	
+
+.section7h2{
+	margin-top: 150px;
+}
 }
 .section7p{
-	padding-bottom: 250px;
+	padding-bottom: 1000px;
 	margin-left: 50px;
+	position: absolute;
 }
 .section7icon{
 	margin-left: 50px;
